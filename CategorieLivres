@@ -1,0 +1,11 @@
+package mediatheque;
+
+public enum CategoriesLivres {
+    ROM("Romance"), POL("Polar"), AUTO("Autobiographie");
+
+    String nom;
+
+    private CategoriesLivres(String nom) {
+	this.nom = nom;
+    }
+}
