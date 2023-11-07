@@ -1,0 +1,12 @@
+package mediatheque;
+
+public enum CategoriesJeux {
+    STR("Stratégie"), FAM("Familiale"), TRAD("Traditionel");
+
+    String nom;
+
+    private CategoriesJeux(String nom) {
+	this.nom = nom;
+    }
+
+}
