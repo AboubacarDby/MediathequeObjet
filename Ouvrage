@@ -1,0 +1,54 @@
+package mediatheque;
+
+public class Ouvrage {
+    private String titre;
+    private int numSerie;
+    private String nomAuteur;
+    private Emplct emplct;
+
+    public Ouvrage(String titre, String nomAuteur, int numSerie, Emplct emplct) {
+	super();
+	this.titre = titre;
+	this.nomAuteur = nomAuteur;
+	this.emplct = emplct;
+	this.numSerie = numSerie;
+
+    }
+
+    public Ouvrage() {
+
+    }
+
+    public String getNomAuteur() {
+	return nomAuteur;
+    }
+
+    public void setNomAuteur(String nomAuteur) {
+	this.nomAuteur = nomAuteur;
+    }
+
+    public String getTitre() {
+	return titre;
+    }
+
+    public void setTitre(String titre) {
+	this.titre = titre;
+    }
+
+    public int getNumSerie() {
+	return numSerie;
+    }
+
+    public void setNumSerie(int numSerie) {
+	this.numSerie = numSerie;
+    }
+
+    public Emplct getEmplct() {
+	return emplct;
+    }
+
+    public void setEmplct(Emplct emplct) {
+	this.emplct = emplct;
+    }
+
+}
