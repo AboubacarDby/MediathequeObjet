@@ -1,0 +1,39 @@
+package mediatheque;
+
+public class Abonnement {
+    private String nomAbo;
+    private int nbEmpruntMax;
+    private boolean logitheque;
+
+    public Abonnement(String nomAbo, int nbEmpruntMax, boolean logitheque) {
+	super();
+	this.nomAbo = nomAbo;
+	this.nbEmpruntMax = nbEmpruntMax;
+	this.logitheque = logitheque;
+    }
+
+    public String getNomAbo() {
+	return nomAbo;
+    }
+
+    public void setNomAbo(String nomAbo) {
+	this.nomAbo = nomAbo;
+    }
+
+    public int getNbEmpruntMax() {
+	return nbEmpruntMax;
+    }
+
+    public void setNbEmpruntMax(int nbEmpruntMax) {
+	this.nbEmpruntMax = nbEmpruntMax;
+    }
+
+    public boolean isLogitheque() {
+	return logitheque;
+    }
+
+    public void setLogitheque(boolean logitheque) {
+	this.logitheque = logitheque;
+    }
+
+}
