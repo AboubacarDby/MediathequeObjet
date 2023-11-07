@@ -1,0 +1,29 @@
+package mediatheque;
+
+public class Lecteur extends Acteur {
+    private int numAdhe;
+    private Abonnement abo;
+
+    public Lecteur(String prenom, String nom, int numAdhe, Abonnement abo) {
+	super(prenom, nom);
+	this.numAdhe = numAdhe;
+	this.abo = abo;
+    }
+
+    public int getNumAdhe() {
+	return numAdhe;
+    }
+
+    public void setNumAdhe(int numAdhe) {
+	this.numAdhe = numAdhe;
+    }
+
+    public Abonnement getAbo() {
+	return abo;
+    }
+
+    public void setAbo(Abonnement abo) {
+	this.abo = abo;
+    }
+
+}
