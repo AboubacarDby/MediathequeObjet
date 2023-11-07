@@ -1,0 +1,7 @@
+package mediatheque;
+
+public class Bibliothecaire extends Acteur {
+    public Bibliothecaire(String prenom, String nom) {
+	super(prenom, nom);
+    }
+}
